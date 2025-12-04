@@ -26,6 +26,4 @@ Sales trend line chart for monthly and yearly insights
 Top product categories and sales contributors
 Customer segmentation and purchasing patterns.
 
-
-
 Insights: Identified peak sales periods, high-value customers, and low-stock products, enabling better inventory planning and sales strategy.
