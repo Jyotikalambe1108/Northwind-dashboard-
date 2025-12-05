@@ -1,29 +1,52 @@
-# Northwind-dashboard-Project 
-Short Description & Purpose:
+# North Wind Sales Dashboard
 
-This project focuses on transforming the raw Northwind dataset into actionable business insights. By cleaning and modeling the data, I created an interactive dashboard that highlights sales trends, top-performing products, customer purchasing patterns, and inventory status. The purpose is to help business teams make informed decisions, optimize sales strategies, and manage inventory efficiently.
+## Description
+This Power BI dashboard visualizes sales data for the "North Wind" company, providing a comprehensive overview of key performance indicators, sales trends over time, and performance breakdowns by category and company.
 
-Tech Stack & Data Source:
+## Key Performance Indicators (KPIs)
+* **Total Sales:** 913.2K (Based on the filter selection, which is Order Year 1997)
+* **Avg Sales:** 862.34
+* **Total Orders:** 1K
+* **Avg Freight:** 79.58
 
-Tools: Power BI, DAX, Power Query, Excel
-Data Source: Northwind database (SQL Server / CSV)
+## Filter/Slicer Panel
+The dashboard allows dynamic filtering based on the following dimensions:
+* **Order Year:** Currently filtered on **1997**.
+* **Category Name:** All
+* **Company Name:** All
+* **Country:** All
 
-Key Features:
+## Sales Analysis by Month (Order Year 1997)
+The month-wise analysis shows the sales trend throughout the year 1997, with peak sales in:
+1.  **January:** 96.75K
+2.  **December:** 92.46K
+3.  **May:** 79.4K
 
-Sales performance by region, category, and time period
-Top customers and products analysis
-Inventory management insights
-Interactive visuals and filters for dynamic exploration
+## Sales Analysis by Category Name
+The total sales breakdown highlights top-performing product categories:
+1.  **Dairy Products:** 167.64K
+2.  **Beverages:** 150.37K
+3.  **Confections:** 128.59K
 
-Highlights / Business Impact:
+## Sales Analysis by Company Name
+Total sales are almost equally distributed among the top three companies:
+* **Federal Shipping:** 33.33% (913.22K)
+* **Speedy Express:** 33.33% (913.22K)
+* **United Package:** 33.33% (913.22K)
 
-Business Problem: Difficulty in monitoring overall sales performance, customer trends, and inventory levels.
-Goal of Dashboard: Provide a clear, actionable overview of sales and inventory metrics.
+## Technologies Used
+* **Power BI Desktop**
+* **DAX** for calculated columns and measures
+* **Power Query** for data transformation
 
-Key Visuals Walkthrough:
+## Screenshots
+https://github.com/Jyotikalambe1108/Northwind-dashboard-/blob/main/Northwind%20report%20.png
 
-Sales trend line chart for monthly and yearly insights
-Top product categories and sales contributors
-Customer segmentation and purchasing patterns.
+## Author Profile
+* **Name:** Jyoti Kalambe
+* **Role:** Data Analyst
+* **LinkedIn:** https://www.linkedin.com/in/jyoti-kalambe118/
+* **GitHub:** https://github.com/Jyotikalambe1108
 
-Insights: Identified peak sales periods, high-value customers, and low-stock products, enabling better inventory planning and sales strategy.
+## Contact
+For any queries, contact: **[jyotikalambe2003@gmail.com]** or connect via the links above.
